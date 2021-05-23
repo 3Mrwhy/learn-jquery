@@ -2,11 +2,17 @@ $(document).ready(function(){
 
 	// get methods
 	
-	// html method
-	let a = $(".container h2").text();
-	console.log(a);
+	
 
-	// attr method
-	let a = $(".container").attr("class");
-	console.log(a);
+	// $("#btn").click(function(){
+
+	// 	$("h2").html("<ul> <li> list 1 </li> </ul>");
+
+	// })
+
+	$("#btn").click(function(){
+
+		$("h2").attr("class", "red");
+
+	})
 });
