@@ -1,15 +1,12 @@
 $(document).ready(function(){
 
-	// window events
+	// get methods
 	
-	// scroll events
-	$(".container").scroll(function(){
-		console.log("you are scrolling");
-	});
+	// html method
+	let a = $(".container h2").text();
+	console.log(a);
 
-	// Resize
-	$(window).resize(function(){
-		console.log("you are scrolling");
-	});
-
+	// attr method
+	let a = $(".container").attr("class");
+	console.log(a);
 });

@@ -2,14 +2,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	background: lightblue;
-}
-
 .container {
-	height: 50vh;
-	width: 100%;
-	overflow-y: scroll;
 	margin-bottom: 3em;
-	background: lightgrey;
 }
