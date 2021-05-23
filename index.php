@@ -6,19 +6,19 @@
 </head>
 <body>
 
-	<h1>Heading 1</h1>
-	<div class="container" id="box">
-		<h2>click to change the color</h2>
-		<p>Do exercitation est velit in est proident adipisicing ea sed in nostrud deserunt qui aute tempor in anim ea.</p>
-	</div>
-	<ul>
-		<li>banana</li>
-		<li id="orange">orange</li>
-		<li id="mango
-		">mango</li>
-		<li>apple</li>
-		<li>pine-apple</li>
-	</ul>
+	<form action="" id="sform">
+		<div><label for="">Name</label><input type="text" id="sname"></div>
+		<div><label for="">Class</label><input type="text" id="sclass"></div>
+		<div><label for="Country"></label>
+			<select name="" id="scountry">
+				<option value="india">India</option>
+				<option value="pakistan">Canada</option>
+				<option value="america">America</option>
+			</select>
+		</div>
+		<div><input type="submit"></div>
+	</form>
+	<div class="test"> </div>
 
 <script src="./jQuery.min.js"> </script>
 <script src="./app.js"> </script>
