@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
+	$("li:gt(1)").css("color", "red");
 
-let data = $("#container1").html();
-console.log(data);
 });
