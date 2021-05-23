@@ -1,28 +1,20 @@
 $(document).ready(function(){
 
-	// single click
-	$(".container").click(function(){
-		$(".container").css("background", "lightgrey");
+	// keyboard events
+	
+
+	//key press / keydown
+	$("body").keydown(function(){
+
+		$(this).css("background", "lightblue");
+
 	});
 
-	// double click
-	$(".container").dblclick(function(){
-		$(".container").css("background", "orange");
-	});
+	//key up
+	$("body").keyup(function(){
 
-	// right click
-	$(".container").contextmenu(function(){
-		$(".container").css("background", "lightcoral");
-	});
+		$(this).css("background", "purple");
 
-	// mouse enter
-	$(".container").mouseenter(function(){
-		$(".container").css("background", "tan");
-	});
-
-	// mouse leave
-	$(".container").mouseleave(function(){
-		$(".container").css("background", "purple");
 	});
 
 });
