@@ -2,7 +2,14 @@
 	box-sizing: border-box;
 }
 
+body {
+	background: lightblue;
+}
+
 .container {
-	padding: 2em;
-	border: 2px solid black;
+	height: 50vh;
+	width: 100%;
+	overflow-y: scroll;
+	margin-bottom: 3em;
+	background: lightgrey;
 }
