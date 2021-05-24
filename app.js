@@ -1,18 +1,22 @@
 $(document).ready(function(){
 
-	// get methods
+	// class methods
 	
 	
+	// add class
+	$("#addClass").click(function(){
+		$(".container").addClass("bg-grey");
+	});
 
-	// $("#btn").click(function(){
+	// remove class
+	$("#removeClass").click(function(){
+		$(".container").removeClass("bg-grey");
+	});
 
-	// 	$("h2").html("<ul> <li> list 1 </li> </ul>");
+	// 	toggle class
+	$("#toggleClass").click(function(){
+		$(".container").toggleClass("bg-coral");
+	});
 
-	// })
-
-	$("#btn").click(function(){
-
-		$("h2").attr("class", "red");
-
-	})
+	
 });

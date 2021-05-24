@@ -1,11 +1,16 @@
-* {
-	box-sizing: border-box;
-}
-
 .container {
-	margin-bottom: 3em;
+	border: 4px dashed black;
+	padding: 10em;
+}
+.bg-grey {
+	background: grey;
 }
 
-.red {
-	color: red;
+.bg-coral {
+	background: lightcoral;
+}
+
+button {
+	margin-top: 2em;
+	padding: 1em 2em;
 }
