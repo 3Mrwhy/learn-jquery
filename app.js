@@ -5,6 +5,7 @@ $(document).ready(function(){
 	
 	// add class
 	$("#addClass").click(function(){
+		$(this).css({"background": "lightcoral", "color": "white", "border": 0});
 		$(".container").addClass("bg-grey");
 	});
 
