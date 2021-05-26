@@ -1,26 +1,16 @@
 $(document).ready(function(){
 
-	// Append and prepend
+	// Empty and remove method
 	
-	//append
-	$("#append").click(function(){
-		$(".container").append("<h1> Append </h1>");
+	//empty
+	$("#empty").click(function(){
+		$("h1").empty();
 	})
 
-	//prepend
-	$("#prepend").click(function(){
-		$(".container").prepend("<h1> prepend </h1>");
-	})
-	
-
-	//after
-	$("#after").click(function(){
-		$(".container").after("<h1> Append </h1>");
+	//remove
+	$("#remove").click(function(){
+		$("p").remove();
 	})
 
-	//before
-	$("#before").click(function(){
-		$(".container").before("<h1> prepend </h1>");
-	})
 	
 });
