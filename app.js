@@ -4,12 +4,23 @@ $(document).ready(function(){
 	
 	//append
 	$("#append").click(function(){
-		$("ol").append("<li> Append </li>");
+		$(".container").append("<h1> Append </h1>");
 	})
 
 	//prepend
 	$("#prepend").click(function(){
-		$("ol").prepend("<li> prepend </li>");
+		$(".container").prepend("<h1> prepend </h1>");
+	})
+	
+
+	//after
+	$("#after").click(function(){
+		$(".container").after("<h1> Append </h1>");
+	})
+
+	//before
+	$("#before").click(function(){
+		$(".container").before("<h1> prepend </h1>");
 	})
 	
 });

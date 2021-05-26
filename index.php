@@ -20,6 +20,8 @@
 
 <button id="append">Append</button>
 <button id="prepend">Prepend</button>
+<button id="after">after</button>
+<button id="before">before</button>
 
 
 
