@@ -1,16 +1,12 @@
 $(document).ready(function(){
 
-	// Empty and remove method
+	//  Clone method  
 	
-	//empty
-	$("#empty").click(function(){
-		$("h1").empty();
-	})
+	$("#clone").click(function(){
 
-	//remove
-	$("#remove").click(function(){
-		$("p").remove();
-	})
+		$("h1").clone().prependTo(".container2");
+		$("p").clone().appendTo(".container2");
 
+	});
 	
 });
