@@ -1,23 +1,16 @@
 $(document).ready(function(){
 
-	// class methods
-	
-	
-	// add class
-	$("#addClass").click(function(){
-		$(this).css({"background": "lightcoral", "color": "white", "border": 0});
-		$(".container").addClass("bg-grey");
-	});
+$("#first-image").click(function(){
 
-	// remove class
-	$("#removeClass").click(function(){
-		$(".container").removeClass("bg-grey");
-	});
+	let path = $(this).attr("src");
 
-	// 	toggle class
-	$("#toggleClass").click(function(){
-		$(".container").toggleClass("bg-coral");
-	});
+	$(".container").html();
+	$(".container").css("border", "0px solid transparent");
+
+	$(".container").html('<img id="boxImage">');
+	$("#boxImage").attr("src", path);
+	$("#boxImage").addClass("responsive");
+});	
 
 	
 });

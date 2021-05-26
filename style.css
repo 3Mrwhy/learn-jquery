@@ -1,16 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 .container {
-	border: 4px dashed black;
-	padding: 10em;
-}
-.bg-grey {
-	background: grey;
+	height: 600px;
+	width: 80%;
+	margin: 2em auto;
+	border: 5px dashed lightcoral;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: lightgrey;
+	font-size: 3em;
 }
 
-.bg-coral {
-	background: lightcoral;
+img {
+	
 }
 
-button {
-	margin-top: 2em;
-	padding: 1em 2em;
+.responsive {
+	height:  100%;
+	width:  100%;
+}
+#first-image {
+	margin:  0 auto;
+	height:  100px;
+	width:  100px;
 }

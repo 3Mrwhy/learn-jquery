@@ -6,15 +6,11 @@
 </head>
 <body>
 
-<div class="container">
-	<h2>Container box</h2>
-	<p> Commodo et occaecat pariatur proident dolor laboris non in cillum quis nostrud consequat duis dolor consectetur qui voluptate excepteur.</p>
+<div class="container"> 
+	<h1> Image box </h1>
 </div>
 
-<button id="addClass">Add class</button>
-<button id="removeClass"> Remove class</button>
-<button id="toggleClass">Toggle class</button>
-
+<img src="./nature.jpg" id="first-image" height="100px" width="100px"> 
 
 
 <script src="./jQuery.min.js"> </script>
