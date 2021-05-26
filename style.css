@@ -4,30 +4,7 @@
 	box-sizing: border-box;
 }
 
-.container {
-	height: 600px;
-	width: 80%;
-	margin: 2em auto;
-	border: 5px dashed lightcoral;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	color: lightgrey;
-	font-size: 3em;
-}
-
-img {
-	
-}
-
-.responsive {
-	height:  100%;
-	width:  100%;
-}
 #first-image {
-	margin:  0 auto;
-	height:  100px;
-	width:  100px;
+	height:  80vh;
+	width:  100%;
 }

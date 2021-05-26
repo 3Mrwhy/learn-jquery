@@ -10,8 +10,10 @@
 	<h1> Image box </h1>
 </div>
 
-<img src="./nature.jpg" id="first-image" height="100px" width="100px"> 
+<img src="./nature.jpg" id="first-image"> 
 
+
+<button id="no-event">Remove event </button>
 
 <script src="./jQuery.min.js"> </script>
 <script src="./app.js"> </script>

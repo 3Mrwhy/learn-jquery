@@ -1,16 +1,23 @@
 $(document).ready(function(){
 
-$("#first-image").click(function(){
+	// on methods
+	
+	// apply  events
+	$("#first-image").on({
+		"click": function(){
+			$(this).css({"height": "50px", "width": "50px"})
+		},
+		"mouseover": function(){
+			$(this).css({"height": "500px", "width": "500px"})
+		},
+		"mouseout": function(){
+			$(this).css({"height": "800px", "width": "800px"})
+		}
+	});
 
-	let path = $(this).attr("src");
-
-	$(".container").html();
-	$(".container").css("border", "0px solid transparent");
-
-	$(".container").html('<img id="boxImage">');
-	$("#boxImage").attr("src", path);
-	$("#boxImage").addClass("responsive");
-});	
-
+	// off method
+	$("#no-event").click(function(){
+		$("#first-image").off("mouseout mouseover");
+	});
 	
 });
