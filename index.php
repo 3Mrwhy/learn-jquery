@@ -22,9 +22,9 @@
 </div>
 
 
-<button id="fadein">fadein</button>
-<button id="fadeout">fadeout</button>
-<button id="toggle">toggle</button>
+<button id="slidedown">slidedown</button>
+<button id="slideup">fadeup</button>
+<button id="slidetoggle">fadetoggle</button>
 
 
 

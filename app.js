@@ -1,17 +1,22 @@
 $(document).ready(function(){
 
-	// fade methods
-	$("#fadein").click(function(){
-		$(".dropdownmenu").fadeIn("slow");
+	// slide method
+	$("#slidedown").click(function(){
+		$(".dropdownmenu").slideDown("slow");
 	});
 
-	$("#fadeout").click(function(){
-		$('.dropdownmenu').fadeOut("slow");
+	$("#slideup").click(function(){
+		$('.dropdownmenu').slideUp("slow");
 	});
 
 
-	$("#toggle").click(function(){
-		$(".dropdownmenu").fadeToggle("fast");
+	$("#slidetoggle").click(function(){
+		$(".dropdownmenu").slideToggle(	);
+	});
+
+
+	$("#openMenu").click(function(){
+		$(".dropdownmenu").slideToggle(	5000);
 	});
 
 });
