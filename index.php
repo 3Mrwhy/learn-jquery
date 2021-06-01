@@ -25,9 +25,9 @@
 
 
 <button id="animate">animate</button>
-<!-- <button id="slideup">fadeup</button>
+<button id="stop">stop</button>
 <button id="slidetoggle">fadetoggle</button>
- -->
+
 
 
 <script src="./jQuery.min.js"> </script>

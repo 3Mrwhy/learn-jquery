@@ -21,9 +21,12 @@ $(document).ready(function(){
 
 
 	$("#animate").click(function(){
-		$(".card").animate({
-			width: "toggle",
-		});
+		$(".card").animate({width: "60%",}, 3000);
+		$(".card").animate({left: "300px",}, 3000);
+	});
+
+	$("#stop").click(function(){
+		$(".card").stop(true);
 	});
 
 });
