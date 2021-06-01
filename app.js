@@ -1,12 +1,17 @@
 $(document).ready(function(){
 
-	//  Clone method  
-	
-	$("#clone").click(function(){
-
-		$("h1").clone().prependTo(".container2");
-		$("p").clone().appendTo(".container2");
-
+	// fade methods
+	$("#fadein").click(function(){
+		$(".dropdownmenu").fadeIn("slow");
 	});
-	
+
+	$("#fadeout").click(function(){
+		$('.dropdownmenu').fadeOut("slow");
+	});
+
+
+	$("#toggle").click(function(){
+		$(".dropdownmenu").fadeToggle("fast");
+	});
+
 });

@@ -1,16 +1,24 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+	text-decoration: none;
+	margin:  0;
+	padding:  0;
 }
 
-.container {
-	margin:  4em auto;
-	padding:  4em 2em;
-	width:  100%;
-	border:  2px dashed black;
+ul li {
+	padding:  .5em 0;
+	list-style:  none;
 }
 
-.container2 {
-	border:  2px solid black;
+.lightgrey {
+	background:  lightgrey;
+}
+p {
+	cursor:  pointer;
+}
+
+.dropdownmenu {
+	display: none;
+	border-top:  2px solid red;
+	background:  white;
+
 }
