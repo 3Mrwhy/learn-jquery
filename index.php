@@ -9,23 +9,25 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-lg-2 ms-auto text-center">
-			<p class="text-end" id="openMenu"> Click here </p>	
-			<ul class="dropdownmenu  ">
-				<li>My profile</li>
-				<li>My account</li>
-				<li>Setting</li>
-				<li>Logout</li>
-			</ul>
+		<div class="card">
+			<div class="card-header">
+				<h4> header </h4>
+			</div>
+			<div class="card-body">
+				<p>Elit nostrud laboris culpa pariatur in mollit nulla non aliqua culpa consectetur sed labore do in ullamco cupidatat ea cupidatat nulla ea ullamco veniam enim in in adipisicing voluptate duis in. </p>
+			</div>
+			<div class="card-footer">
+				<button class="btn btn-primary"> card </button>
+			</div>
 		</div>
 	</div>
 </div>
 
 
-<button id="slidedown">slidedown</button>
-<button id="slideup">fadeup</button>
+<button id="animate">animate</button>
+<!-- <button id="slideup">fadeup</button>
 <button id="slidetoggle">fadetoggle</button>
-
+ -->
 
 
 <script src="./jQuery.min.js"> </script>

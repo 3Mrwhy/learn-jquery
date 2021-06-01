@@ -22,3 +22,8 @@ p {
 	background:  white;
 
 }
+
+.card {
+	width:  20%;
+	position: relative;
+}

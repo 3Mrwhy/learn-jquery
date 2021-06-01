@@ -19,4 +19,11 @@ $(document).ready(function(){
 		$(".dropdownmenu").slideToggle(	5000);
 	});
 
+
+	$("#animate").click(function(){
+		$(".card").animate({
+			width: "toggle",
+		});
+	});
+
 });
