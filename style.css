@@ -4,26 +4,24 @@
 	padding:  0;
 }
 
-ul li {
-	padding:  .5em 0;
-	list-style:  none;
+div {
+	padding:   4em;
 }
-
-.lightgrey {
-	background:  lightgrey;
-}
-p {
-	cursor:  pointer;
-}
-
-.dropdownmenu {
-	display: none;
-	border-top:  2px solid red;
-	background:  white;
-
-}
-
-.card {
-	width:  20%;
+.main-container {
+	background:  lightgreen;
 	position: relative;
+}
+.inner-container {
+	background:  lightblue;
+}
+.content-container {
+	background:  lightcoral;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.content-container div {
+	background:  purple;
+	color:  white;
 }
