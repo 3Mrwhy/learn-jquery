@@ -12,10 +12,10 @@
 	<div class="inner-container">
 	<h1>	inner container	 </h1>
 		<div class="content-container">
-			<div>A</div>
-			<div>B</div>
+			<div id="a">A</div>
+			<div id="b">B</div>
 			<div id="child-c">C</div>
-			<div>D</div>
+			<div id="d">D</div>
 		</div>
 	</div>
 </div>

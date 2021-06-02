@@ -1,19 +1,46 @@
 $(document).ready(function(){
 
-	/* @name: 		children method
-	  @defination: 	it is used to target the children element
+	/* @name: 		siblings method
+	  @defination: 	it is used to target the all sibligs elements
 	*/ 
-	// $(".main-container").children().css("background", "red");
+	// $("h1").siblings(".inner-container").css("background", "red");
 
 
-	/* @name: 		find method
-	  @defination: 	it is used to find any element withgin container
+	/* @name: 		next method
+	  @defination: 	it is used to target the next immediate siblings
 	*/ 
-	$(".inner-container").find("#child-c").css("background", "red");
+	// $("#child-c").next().css("background", "red");
 
+
+	/* @name: 		prev method
+	  @defination: 	it is used to target the prev immediate siblings
+	*/ 
+	//$("#child-c").prev().css("background", "red");
 
 
 	
+	/* @name: 		prevAll method
+	  @defination: 	it is used to target the prev all immediate siblings
+	*/ 
+	// $("#child-c").prevAll().css("background", "red");
+	
+
+	/* @name: 		nextAll method
+	  @defination: 	it is used to target the next all immediate siblings
+	*/ 
+	// $("#child-c").nextAll().css("background", "red");
+
+
+	/* @name: 		nextUntil method
+	  @defination: 	it is used to target the range of next elements
+	*/ 
+	// $("#b").nextUntil("#d").css("background", "red");
+
+
+	/* @name: 		prevUntil method
+	  @defination: 	it is used to target the range of prev elements
+	*/ 
+	$("#d").prevUntil("#a").css("background", "red");
 
 
 });
