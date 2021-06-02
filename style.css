@@ -8,28 +8,13 @@ div {
 	padding:   4em;
 }
 
-.relative {
-	position: relative;
+.first-container {
+	border:  2px solid green;
+	background:  lightgray;
 }
 
-.main-container {
-	background:  lightgreen;
-	position: relative;
-	border:  1px solid black; 
-}
-.inner-container {
+
+.second-container {
+	border:  2px solid blue;
 	background:  lightblue;
-	border:  1px solid lightcoral;
-}
-.content-container {
-	background:  lightcoral;
-	display: flex;
-	justify-content: space-around;
-	border:  1px solid lightgreen;
-
-}
-
-.content-container div {
-	background:  purple;
-	color:  white;
 }

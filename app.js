@@ -1,34 +1,33 @@
 $(document).ready(function(){
 
-	/* @name: 		siblings method
-	  @defination: 	it is used to target the all sibligs elements
+	/* @name: 		first method
+	  @defination: 	it is used to target the first element of the entire page
 	*/ 
-	// $("h1").siblings(".inner-container").css("background", "red");
+	// $("p").first().css("background", "red");
 
 
-	/* @name: 		next method
-	  @defination: 	it is used to target the next immediate siblings
+	/* @name: 		last method
+	  @defination: 	it is used to target the last element
 	*/ 
-	// $("#child-c").next().css("background", "red");
+	// $("ul li").last()./css("background", "red");
 
 
-	/* @name: 		prev method
-	  @defination: 	it is used to target the prev immediate siblings
+	/* @name: 		eq method
+	  @defination: 	it is used to target the equation element
 	*/ 
-	//$("#child-c").prev().css("background", "red");
+	// $("p").eq(0).css("background", "red");
 
 
+	/* @name: 		Filter method
+	  @defination: 	it is used to target the filterted element of the parameter
+	*/ 
+	// $("p").filter(".first-container").css("background", "red");
 	
-	/* @name: 		prevAll method
-	  @defination: 	it is used to target the prev all immediate siblings
-	*/ 
-	// $("#child-c").prevAll().css("background", "red");
-	
 
-	/* @name: 		nextAll method
-	  @defination: 	it is used to target the next all immediate siblings
+	/* @name: 		slice method
+	  @defination: 	it is used to target the sliced element
 	*/ 
-	// $("#child-c").nextAll().css("background", "red");
+	$("ul li").slice(1).css("background", "red");
 
 
 	/* @name: 		nextUntil method
@@ -40,7 +39,7 @@ $(document).ready(function(){
 	/* @name: 		prevUntil method
 	  @defination: 	it is used to target the range of prev elements
 	*/ 
-	$("#d").prevUntil("#a").css("background", "red");
+	// $("#d").prevUntil("#a").css("background", "red");
 
 
 });

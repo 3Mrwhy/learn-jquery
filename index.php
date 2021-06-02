@@ -7,23 +7,19 @@
 </head>
 <body class="bg-light">
 
-<div class="main-container ">
-	<h1>	Main container	 </h1>
-	<div class="inner-container">
-	<h1>	inner container	 </h1>
-		<div class="content-container">
-			<div id="a">A</div>
-			<div id="b">B</div>
-			<div id="child-c">C</div>
-			<div id="d">D</div>
-		</div>
-	</div>
+<div class="first-container">
+	<p>In pariatur excepteur voluptate officia in dolor anim ut id mollit nisi exercitation mollit.</p>
+	<p>Magna sunt ex.</p>
 </div>
-<!-- 
-<button id="animate">animate</button>
-<button id="stop">stop</button>
-<button id="slidetoggle">fadetoggle</button>
- -->
+<ul>
+	<li>A</li>
+	<li>B</li>
+	<li>C</li>
+</ul>
+<div class="second-container">
+	<p>Aliquip dolore duis veniam amet voluptate mollit occaecat consectetur anim occaecat est eiusmod consequat dolor dolore.</p>
+	<p>Dolore incididunt consectetur.</p>
+</div>
 
 
 <script src="./jQuery.min.js"> </script>
