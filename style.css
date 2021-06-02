@@ -7,17 +7,25 @@
 div {
 	padding:   4em;
 }
+
+.relative {
+	position: relative;
+}
+
 .main-container {
 	background:  lightgreen;
 	position: relative;
+	border:  1px solid black; 
 }
 .inner-container {
 	background:  lightblue;
+	border:  1px solid lightcoral;
 }
 .content-container {
 	background:  lightcoral;
 	display: flex;
 	justify-content: space-around;
+	border:  1px solid lightgreen;
 
 }
 
