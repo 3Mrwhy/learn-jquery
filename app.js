@@ -1,35 +1,19 @@
 $(document).ready(function(){
 
-	/* @name: 		parent method
-	  @defination: 	it is used to target the immediate parent
+	/* @name: 		children method
+	  @defination: 	it is used to target the children element
 	*/ 
-	//$(".content-container").parent().css("background", "red");
+	// $(".main-container").children().css("background", "red");
 
 
-	/* @name: 		parents method
-	  @defination: 	it is used to target the all parent
+	/* @name: 		find method
+	  @defination: 	it is used to find any element withgin container
 	*/ 
-	//$(".content-container").parents(".inner-container").css("background", "red");
+	$(".inner-container").find("#child-c").css("background", "red");
 
 
 
-	/* @name: 		parentsUntil method
-	  @defination: 	it is used to target the range of parents
-	*/ 
-	//$("#child-c").parentsUntil(".main-container").css("background", "red");
-
-
-	/* @name: 		offsetParent method
-	  @defination: 	it is used to target the parent which have property relative
-	*/ 
-	//$("#child-c").offsetParent().css("background", "red");
 	
-
-	/* @name: 		closet method
-	  @defination: 	it is used to target closet matching parameter
-	*/ 
-	$("#child-c").closest("ul").css("background", "red");
-
 
 
 });
