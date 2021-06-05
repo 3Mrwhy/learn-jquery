@@ -1,17 +1,19 @@
 $(document).ready(function(){
 
-	// type method
+	// preventDefault method
 
 
-	/* @name: type
-	  @defination: 	it is used to get the triggered event
+	/* @name: preventDefault
+	  @defination: 	it is used to stop the default event of the element
 	*/ 
 
-	$(document).mousemove(function(e){
-		$(".result").on("click mouseover dbclick mouseout", function(e){
-			$("h2").html((e.type));
-		})
-	});
+	$("#link").click(function(e){
 
+		e.preventDefault();
+
+		let a = e.isDefaultPrevented();
+		console.log(a);	
+
+	});
 
 });

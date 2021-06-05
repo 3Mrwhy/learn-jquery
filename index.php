@@ -7,11 +7,11 @@
 </head>
 <body class="bg-light">
 
+	<div id="box">
+		<a href="https://www.google.com" id="link"> Google </a>
+	</div>
 
-<div class="result"> </div>
-
-<h2> </h2>
-
+	<div class="result"></div>
 <script src="./jQuery.min.js"> </script>
 <script src="./app.js"> </script>
 </body>

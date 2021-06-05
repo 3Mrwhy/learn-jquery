@@ -8,7 +8,7 @@ div {
 	padding:   4em;
 }
 
-.result {
+#box {
 	border:  2px solid green;
 	background:  lightgray;
 }
