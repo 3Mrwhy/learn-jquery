@@ -1,14 +1,16 @@
 $(document).ready(function(){
 
-	//  page x and page y method
+	// type method
 
 
-	/* @name: page x
-	  @defination: 	it is used to get the x cooridinate of the cursor
+	/* @name: type
+	  @defination: 	it is used to get the triggered event
 	*/ 
 
 	$(document).mousemove(function(e){
-		$(".result").text("X: "+ e.pageX + " Y: " + e.pageY);
+		$(".result").on("click mouseover dbclick mouseout", function(e){
+			$("h2").html((e.type));
+		})
 	});
 
 
