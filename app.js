@@ -1,19 +1,36 @@
 $(document).ready(function(){
 
-	// preventDefault method
+	// stopPropagation method
 
 
 	/* @name: preventDefault
-	  @defination: 	it is used to stop the default event of the element
+	  @defination: 	it is used to stop the parent element event
 	*/ 
 
-	$("#link").click(function(e){
+	$("#box").click(function(){
 
-		e.preventDefault();
+		alert("div clicked");
 
-		let a = e.isDefaultPrevented();
-		console.log(a);	
+		
 
 	});
+
+	$("#heading").click(function(e){
+		e.stopPropagation();
+		alert("heading clicked");
+	});
+
+
+	$("#para").click(function(){
+		alert("paragraph clicked");
+	});
+
+
+	$("#btn").click(function(){
+		alert("btn clicked");
+	});
+
+
+
 
 });
