@@ -1,16 +1,15 @@
 $(document).ready(function(){
 
-	//  each method
+	//  page x and page y method
 
 
-	/* @name: 		each 
-	  @defination: 	it it used to loop the all given element
+	/* @name: page x
+	  @defination: 	it is used to get the x cooridinate of the cursor
 	*/ 
-	$("li").each(function(){
-		console.log($(this).text("hello"));
-	});
 
-	
+	$(document).mousemove(function(e){
+		$(".result").text("X: "+ e.pageX + " Y: " + e.pageY);
+	});
 
 
 });
