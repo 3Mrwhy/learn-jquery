@@ -1,15 +1,27 @@
 $(document).ready(function(){
 
-	/* @name: 		first method
-	  @defination: 	it is used to target the first element of the entire page
-	*/ 
-	// $("p").first().css("background", "red");
+	//  Has and is method
 
 
-	/* @name: 		last method
-	  @defination: 	it is used to target the last element
+	/* @name: 		has method
+	  @defination: 	it is used to target the descendant element of the tag
 	*/ 
-	// $("ul li").last()./css("background", "red");
+	$("p").has('span').css("background", "red");
+
+
+	/* @name: 		is method
+	  @defination: 	it is used to find the particular class, tag availabel of not
+	*/ 
+	$("p").click(function(){
+		if($(this).parent().is('div')){
+			console.log($(this).parent().is('div'));
+		}
+	});
+	// if($('p').parent().is('div')) {
+	// 	console.log($('p').parent().is('div'));
+	// } else {
+	// 	console.log("not find");
+	// }
 
 
 	/* @name: 		eq method
@@ -27,7 +39,7 @@ $(document).ready(function(){
 	/* @name: 		slice method
 	  @defination: 	it is used to target the sliced element
 	*/ 
-	$("ul li").slice(1).css("background", "red");
+	// $("ul li").slice(1).css("background", "red");
 
 
 	/* @name: 		nextUntil method
